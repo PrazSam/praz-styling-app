@@ -1,0 +1,60 @@
+div {
+  background: rgb(228, 223, 223);
+}
+
+.title {
+  background: peachpuff;
+}
+
+#section2 {
+  color: blueviolet;
+} 
+
+#section2 p {
+  font-size: 20px;
+} 
+
+#section1, #section2{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.my-span1, .my-span2{
+  font-weight: bold;
+}
+
+/*---------- Fonts ----------------*/
+
+/* Note : 
+Html5 defaults font size as 16px
+1px = 1/96 inches
+1pt = 1/72 inches
+1pc = 12 pt (1/6 inches)
+
+%  - relative to parent element
+em - multiplier to parent element
+rem - relative to root element
+viewport ???
+*/
+
+/*check https://fonts.google.com/ */
+#section3{
+  font-family: 'Roboto', sans-serif;
+}
+
+#section3 p span{
+  font-style: italic;
+}
+
+#color1{
+  color: red; /*name*/
+}
+
+#color2{
+  color: rgb(150, 150, 40);/*rgb*/
+}
+
+/* check https://www.color-hex.com/ */
+/* https://htmlcolorcodes.com/ */
+#color3{
+  color: #a9a9a9;/*hex*/
+}
