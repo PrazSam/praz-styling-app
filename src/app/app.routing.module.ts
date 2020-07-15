@@ -3,11 +3,22 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { CssBasicsComponent } from './css-basics/css-basics.component';
+import { DBoxModelComponent } from './d-box-model/d-box-model.component';
 import { HtmlEntitiesAndSemanticsComponent } from './html-entities-and-semantics/html-entities-and-semantics.component';
 
 const appRoutes: Routes = [
-  { path: 'html-entities-and-semantics', component: HtmlEntitiesAndSemanticsComponent },
-  { path: 'css-basics',      component: CssBasicsComponent }
+  { 
+    path: 'html-entities-and-semantics', 
+    component: HtmlEntitiesAndSemanticsComponent 
+  },
+  { 
+    path: 'css-basics',      
+    component: CssBasicsComponent 
+  },
+  { 
+    path: 'box-model',      
+    component: DBoxModelComponent 
+  }
 ];
 
 @NgModule({

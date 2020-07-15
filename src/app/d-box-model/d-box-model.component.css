@@ -1,0 +1,19 @@
+/* CSS Reeset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+  background: #d1d1d1;
+  border: 1px solid black;
+  width: 400px;
+
+  /*top, right, bottom, left*/
+  padding: 10px 20px 10px 20px; 
+
+  /*top, bottom and right,left*/
+  margin: 10px 20px; 
+
+}
