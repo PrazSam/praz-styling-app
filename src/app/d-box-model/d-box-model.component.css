@@ -17,3 +17,14 @@
   margin: 10px 20px; 
 
 }
+
+/* floating */
+.container{
+  font-family: 'Roboto', sans-serif;
+  max-width: 500px;
+  margin: 50px auto;
+}
+.box-new{
+  border: 1px solid grey;
+  padding: 20px
+}
