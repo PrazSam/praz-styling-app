@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;/****This is really important to make widths accurate when using paddings******/
 }
 
 .box{
@@ -21,10 +21,22 @@
 /* floating */
 .container{
   font-family: 'Roboto', sans-serif;
-  max-width: 500px;
+  max-width: 600px;
   margin: 50px auto;
 }
 .box-new{
   border: 1px solid grey;
   padding: 20px
+}
+.box-20{
+  float: left;
+  width: 69%;
+}
+.box-30{
+  float: right;
+  width: 29%;
+}
+
+.clr{
+  clear: both;
 }
