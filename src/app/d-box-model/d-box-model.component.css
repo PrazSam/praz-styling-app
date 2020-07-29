@@ -40,3 +40,9 @@
 .clr{
   clear: both;
 }
+
+/* zudo selectors */
+.box-30:hover{
+  background: burlywood;
+  cursor: progress;
+}
