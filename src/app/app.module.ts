@@ -9,10 +9,11 @@ import { CssBasicsComponent } from './b-css-basics/css-basics.component';
 import { DBoxModelComponent } from './d-box-model/d-box-model.component';
 import { CBackgroundAndBoardersComponent } from './c-background-and-boarders/c-background-and-boarders.component';
 import { ESideMenuComponent } from './e-side-menu/e-side-menu.component';
+import { FDisplayPropertyComponent } from './f-display-property/f-display-property.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AppRoutingModule ],
-  declarations: [ AppComponent, HelloComponent, HtmlEntitiesAndSemanticsComponent, CssBasicsComponent, DBoxModelComponent, CBackgroundAndBoardersComponent, ESideMenuComponent ],
+  declarations: [ AppComponent, HelloComponent, HtmlEntitiesAndSemanticsComponent, CssBasicsComponent, DBoxModelComponent, CBackgroundAndBoardersComponent, ESideMenuComponent, FDisplayPropertyComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

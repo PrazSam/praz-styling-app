@@ -6,6 +6,7 @@ import { CssBasicsComponent } from './b-css-basics/css-basics.component';
 import { DBoxModelComponent } from './d-box-model/d-box-model.component';
 import { HtmlEntitiesAndSemanticsComponent } from './a-html-entities-and-semantics/html-entities-and-semantics.component';
 import { ESideMenuComponent } from './e-side-menu/e-side-menu.component';
+import { FDisplayPropertyComponent } from './f-display-property/f-display-property.component';
 
 
 const appRoutes: Routes = [
@@ -23,7 +24,11 @@ const appRoutes: Routes = [
   },
   { 
     path: 'side-menu',      
-    component: ESideMenuComponent 
+    component: ESideMenuComponent   
+  },
+  { 
+    path: 'display-property',      
+    component: FDisplayPropertyComponent 
   }
 ];
 
