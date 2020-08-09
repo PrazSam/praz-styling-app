@@ -5,6 +5,8 @@ import { HelloComponent } from './hello.component';
 import { CssBasicsComponent } from './b-css-basics/css-basics.component';
 import { DBoxModelComponent } from './d-box-model/d-box-model.component';
 import { HtmlEntitiesAndSemanticsComponent } from './a-html-entities-and-semantics/html-entities-and-semantics.component';
+import { ESideMenuComponent } from './e-side-menu/e-side-menu.component';
+
 
 const appRoutes: Routes = [
   { 
@@ -18,6 +20,10 @@ const appRoutes: Routes = [
   { 
     path: 'box-model',      
     component: DBoxModelComponent 
+  },
+  { 
+    path: 'side-menu',      
+    component: ESideMenuComponent 
   }
 ];
 
