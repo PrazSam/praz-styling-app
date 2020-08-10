@@ -1,8 +1,23 @@
 li{
  list-style: none;
- display: inline;
+ display: inline; /* li is block element so we are making it inline forcefully*/
 }
 
 li a{
   padding-right: 20px;
+}
+
+img{
+  display: block;/* img is inline element so we are making it block forcefully*/
+  margin: auto;/* only block elemts works with 'margin: auto' */
+  width: 300px;
+}
+
+.box{
+  width: 30%; /* width can only be when block or inline-blocknot with inline*/
+  box-sizing: border-box;
+  display: inline-block; /* block, inline, inline-block, flex, grud*/
+  background: #a8a6a6;
+  padding: 20px;
+  margin: 5px;
 }
