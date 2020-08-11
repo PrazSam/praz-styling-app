@@ -10,10 +10,11 @@ import { DBoxModelComponent } from './d-box-model/d-box-model.component';
 import { CBackgroundAndBoardersComponent } from './c-background-and-boarders/c-background-and-boarders.component';
 import { ESideMenuComponent } from './e-side-menu/e-side-menu.component';
 import { FDisplayPropertyComponent } from './f-display-property/f-display-property.component';
+import { GCssPositioningComponent } from './g-css-positioning/g-css-positioning.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AppRoutingModule ],
-  declarations: [ AppComponent, HelloComponent, HtmlEntitiesAndSemanticsComponent, CssBasicsComponent, DBoxModelComponent, CBackgroundAndBoardersComponent, ESideMenuComponent, FDisplayPropertyComponent ],
+  declarations: [ AppComponent, HelloComponent, HtmlEntitiesAndSemanticsComponent, CssBasicsComponent, DBoxModelComponent, CBackgroundAndBoardersComponent, ESideMenuComponent, FDisplayPropertyComponent, GCssPositioningComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

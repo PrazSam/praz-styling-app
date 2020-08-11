@@ -7,7 +7,7 @@ import { DBoxModelComponent } from './d-box-model/d-box-model.component';
 import { HtmlEntitiesAndSemanticsComponent } from './a-html-entities-and-semantics/html-entities-and-semantics.component';
 import { ESideMenuComponent } from './e-side-menu/e-side-menu.component';
 import { FDisplayPropertyComponent } from './f-display-property/f-display-property.component';
-
+import { GCssPositioningComponent } from './g-css-positioning/g-css-positioning.component';
 
 const appRoutes: Routes = [
   { 
@@ -29,6 +29,10 @@ const appRoutes: Routes = [
   { 
     path: 'display-property',      
     component: FDisplayPropertyComponent 
+  },
+  { 
+    path: 'css-positioning',      
+    component: GCssPositioningComponent 
   }
 ];
 
