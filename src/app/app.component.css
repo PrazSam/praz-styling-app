@@ -1,3 +1,8 @@
 p {
   font-family: Lato;
 }
+.my-nav{
+  position: sticky;
+  top: 8px;
+  background: rgb(212, 202, 248);
+}
