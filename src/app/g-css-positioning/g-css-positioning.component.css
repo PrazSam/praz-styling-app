@@ -1,29 +1,62 @@
+/* 
+ * Static - Default Behavoiur --- not affected by top, bottom, rifgt, left
+ * Relative - affected normal posision (relative to parent)? by top, bottom, rifgt, left
+ * Absolute - positiooned relative to relative parent
+ * Fixed - relative to view port
+ * Sticky - based on scroll position
+ */
+
+
 .box{
   width: 100px;
   height: 100px;
+  font-size: 90px;
+  text-align: center;
 }
 
 #box-1{
-  /* position: static; */ /* Default Behavoiur --- not affected by top, bottom, rifgt, left */
-
   position: relative;
-  top: 50px;
-  left: 50px;
+  top: 25px;
+  left: 25px;
   background: red;
+  z-index: 1;
+}
+
+.container{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: rgb(141, 173, 173);
 }
 
 #box-2{
+  position: absolute;
+  top: 50px;
+  left: 50px;
   background: yellow;
 }
 
 #box-3{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
   background: green;
 }
 
 #box-4{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
   background: blue;
 }
 
 #box-5{
+  position: sticky;
+  top: 0;
   background: orangered;
+}
+
+#box-6{
+  height: 1000px;
+  background: grey;
 }
