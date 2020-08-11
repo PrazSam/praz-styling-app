@@ -8,6 +8,8 @@ import { HtmlEntitiesAndSemanticsComponent } from './a-html-entities-and-semanti
 import { ESideMenuComponent } from './e-side-menu/e-side-menu.component';
 import { FDisplayPropertyComponent } from './f-display-property/f-display-property.component';
 import { GCssPositioningComponent } from './g-css-positioning/g-css-positioning.component';
+import { HFormStylingComponent } from './h-form-styling/h-form-styling.component';
+
 
 const appRoutes: Routes = [
   { 
@@ -33,6 +35,10 @@ const appRoutes: Routes = [
   { 
     path: 'css-positioning',      
     component: GCssPositioningComponent 
+  },
+  { 
+    path: 'form-styling',      
+    component: HFormStylingComponent 
   }
 ];
 

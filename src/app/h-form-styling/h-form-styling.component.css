@@ -1,0 +1,97 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+}
+
+.form-body {
+  background: #344a72;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  /* 
+  -Remember, margin: auto on left and right will center a block element 
+  -I would also set a "max-width" for responsiveness
+  -May want to add some padding
+  */
+  margin: auto;
+  padding: 10px;
+  max-width: 300px;
+}
+
+.form-wrap {
+  background: white;
+  padding: 20px;
+}
+
+.form-wrap h1,
+.form-wrap p {
+  /* display: inline-block;
+  margin: auto; */
+  text-align: center;
+}
+
+.form-wrap .form-group {
+  /* 
+    Each label, input is wrapped in .form-group
+  */
+  padding: 5px 0px;;
+}
+
+.form-wrap .form-group label {
+  font-size: 12px;
+  padding: 4px 0px;
+  display: block;
+}
+
+.form-wrap .form-group input {
+  /* 
+    Inputs should reach accross the .form-wrap 100% and have some padding
+  */
+  padding: 5px;
+  width: 100%;
+  border: 1px solid rgb(214, 203, 203);
+  border-radius: 3px;
+}
+
+.form-wrap button {
+  /* 
+    Button should wrap accross 100% and display as block
+    Background color for button is #49c1a2
+  */
+  background: #49c1a2;
+  width: 100%;
+  display: block;
+  border: 1px solid #2e816c;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 10px 0px;
+  color: white;
+}
+
+.form-wrap button:hover {
+  background: #37a08e;
+  cursor: pointer;
+}
+
+.form-wrap .bottom-text {
+  font-size: 10px;
+  line-height: 18px;
+}
+
+footer {
+  margin: 10px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer a {
+  color: #49c1a2;
+}
