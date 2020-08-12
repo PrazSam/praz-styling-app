@@ -2,7 +2,23 @@ p {
   font-family: Lato;
 }
 .my-nav{
+  padding: 10px;
   position: sticky;
   top: 8px;
-  background: rgb(212, 202, 248);
+  background: #49c1a2;
+  line-height: 2.3;
+}
+
+.my-nav a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  background:#415b8a;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.my-nav a:hover{
+  background: #344a72;
 }
