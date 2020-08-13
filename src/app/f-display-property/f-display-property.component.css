@@ -16,7 +16,11 @@ img{
 .box{
   width: 30%; /* width can only be when block or inline-blocknot with inline*/
   box-sizing: border-box;
-  display: inline-block; /* block, inline, inline-block, flex, grud*/
+
+  /* block, inline, inline-block, flex, grid*/
+  /* display : none removes elemt from dom while visibility: hidden makes only the things invisible but not the space taken*/
+  display: inline-block; 
+
   background: #a8a6a6;
   padding: 20px;
   margin: 5px;

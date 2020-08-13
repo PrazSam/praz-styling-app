@@ -58,3 +58,14 @@ viewport ???
 #color3{
   color: #a9a9a9;/*hex*/
 }
+
+/*
+ * element styles are overidden by inline or classes
+ * by making elemts !important you can avoid that
+*/
+h2{
+  color: hotpink !important;
+}
+.titleX{
+  color: red;
+}
