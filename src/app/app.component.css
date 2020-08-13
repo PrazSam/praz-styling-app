@@ -2,23 +2,36 @@ p {
   font-family: Lato;
 }
 .my-nav{
-  padding: 10px;
+  overflow: auto; /* since a tag has display: block*/
+  z-index: 10;
   position: sticky;
+
+  padding: 10px;
+  margin-bottom: 10px;
   top: 8px;
   background: #49c1a2;
-  line-height: 2.3;
+  line-height: 1.8;
 }
 
 .my-nav a{
+  /* these two makes a taga block element and stacked to left so no word breaking*/
+  display: block;
+  float: left;
+
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
   color: white;
-  padding: 5px;
-  margin: 5px;
+  padding: 0px 5px;
+  margin: 2px;
   background:#415b8a;
   border: 1px solid gray;
-  border-radius: 5px;
+  border-radius: 10px;
 }
+
+.clr{
+  clear: both; /* clear floatin bottom items */
+}
+
 .my-nav a:hover{
   background: #344a72;
 }
