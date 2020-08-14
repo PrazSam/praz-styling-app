@@ -9,7 +9,7 @@ import { ESideMenuComponent } from './e-side-menu/e-side-menu.component';
 import { FDisplayPropertyComponent } from './f-display-property/f-display-property.component';
 import { GCssPositioningComponent } from './g-css-positioning/g-css-positioning.component';
 import { HFormStylingComponent } from './h-form-styling/h-form-styling.component';
-
+import { IHotelProjectComponent } from './i-hotel-project/i-hotel-project.component';
 
 const appRoutes: Routes = [
   { 
@@ -39,6 +39,10 @@ const appRoutes: Routes = [
   { 
     path: 'form-styling',      
     component: HFormStylingComponent 
+  },
+  { 
+    path: 'hotel-project',      
+    component: IHotelProjectComponent 
   }
 ];
 

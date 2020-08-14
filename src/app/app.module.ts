@@ -12,10 +12,11 @@ import { ESideMenuComponent } from './e-side-menu/e-side-menu.component';
 import { FDisplayPropertyComponent } from './f-display-property/f-display-property.component';
 import { GCssPositioningComponent } from './g-css-positioning/g-css-positioning.component';
 import { HFormStylingComponent } from './h-form-styling/h-form-styling.component';
+import { IHotelProjectComponent } from './i-hotel-project/i-hotel-project.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AppRoutingModule ],
-  declarations: [ AppComponent, HelloComponent, HtmlEntitiesAndSemanticsComponent, CssBasicsComponent, DBoxModelComponent, CBackgroundAndBoardersComponent, ESideMenuComponent, FDisplayPropertyComponent, GCssPositioningComponent, HFormStylingComponent ],
+  declarations: [ AppComponent, HelloComponent, HtmlEntitiesAndSemanticsComponent, CssBasicsComponent, DBoxModelComponent, CBackgroundAndBoardersComponent, ESideMenuComponent, FDisplayPropertyComponent, GCssPositioningComponent, HFormStylingComponent, IHotelProjectComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
