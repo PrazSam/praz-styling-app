@@ -26,6 +26,29 @@ p {
   padding: 0 20px;
 }
 
+.txt-primary{
+  color: #f7c08a;
+}
+
+.lead{
+  font-size: 20px;
+}
+
+.btn{
+  display: inline-block;
+  color: #fff;
+  background: #333;
+  font-size: 18px;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: #f7c08a;
+}
+
+/* Nav bar*/
 #nav-bar{
   background: #333;
   color: #fff;
@@ -61,3 +84,27 @@ p {
  background: #444;
  color: #f7c08a;
 }
+
+/*************SHOWCASE*********/
+#showcase{
+  background: url(https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center/cover;
+  height: 700px;
+  opacity: 0.85;
+}
+
+#showcase .showcase-content{
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content p{
+  padding-bottom: 40px;
+  line-height: 1.5em;
+}
+
+#showcase .showcase-content h1{
+  line-height: 1.2em;
+  font-size: 60px;
+}
+
